@@ -5,7 +5,7 @@ import PortfolioDetails from './PortfolioDetails'
 const PortfolioListContent = [
     {
         id: 'alcoometre',
-        image: 'image-1',
+        image: 'image-2',
         imageDetail: '',
         category: '',
         title: 'Alcoomètre',
@@ -13,7 +13,7 @@ const PortfolioListContent = [
     },
     {
         id: 'biomedecine',
-        image: 'project-2',
+        image: 'image-1',
         imageDetail: '',
         category: '',
         title: 'Agence de la biomédecine',

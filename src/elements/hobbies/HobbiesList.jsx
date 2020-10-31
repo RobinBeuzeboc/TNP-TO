@@ -4,14 +4,14 @@ import HobbiesDetails from './HobbiesDetails'
 const HobbiesListContent = [
     {
         id: 'jeuxvideos',
-        image: 'image-1',
+        image: 'image-4',
         imageDetail: '',
         category: '',
         title: 'Jeux vidéos',
     },
     {
         id: 'guitare',
-        image: 'project-2',
+        image: 'image-5',
         imageDetail: '',
         category: '',
         title: 'Guitare',
@@ -19,7 +19,7 @@ const HobbiesListContent = [
     },
     {
         id: 'Concerts / Festivals',
-        image: 'image-3',
+        image: 'image-6',
         imageDetail: '',
         category: '',
         title: 'Concerts / Festivals',
@@ -44,6 +44,8 @@ export default function HobbiesList(props) {
                         <div className="thumbnail-inner">
                             <div className={`thumbnail ${value.image}`}></div>
                             <div className={`bg-blr-image ${value.image}`}></div>
+
+                            {console.log(value.image)}
                         </div>
                         <div className="content">
                             <div className="inner">
