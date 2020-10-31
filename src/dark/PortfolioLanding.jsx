@@ -10,6 +10,7 @@ import PortfolioList from "../elements/portfolio/PortfolioList"
 import HobbiesList from "../elements/hobbies/HobbiesList"
 import ServiceList from "../elements/service/ServiceList"
 import BlogContent from "../elements/blog/BlogContent"
+import Career from "../elements/career/Career"
 
 const SlideList = [
     {
@@ -151,6 +152,9 @@ const PortfolioLanding = () => {
                                     <p>Parce que ma carrière ne s'est pas faite en un jour.</p>
                                 </div>
                             </div>
+                        </div>
+                        <div className="row">
+                            <Career />
                         </div>
                     </div>    
                 </div>
