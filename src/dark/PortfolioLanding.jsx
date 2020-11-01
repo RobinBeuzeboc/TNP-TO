@@ -46,9 +46,9 @@ const PortfolioLanding = () => {
                                             {value.category ? <span>{value.category}</span> : ''}
                                             <h1 className="title">Thibaut Neu <br/>
                                             <TextLoop>
-                                                <span> Chef de projet.</span>
-                                                <span> Communication digitale.</span>
-                                                <span> Stratégie social média.</span>
+                                                <span> Chef <br /> de projet.</span>
+                                                <span> Communication <br /> digitale.</span>
+                                                <span> Stratégie <br />social média.</span>
                                             </TextLoop>{" "}
                                             </h1>
                                             <h2>Basé à Paris</h2>
