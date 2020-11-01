@@ -11,6 +11,9 @@ import HobbiesList from "../elements/hobbies/HobbiesList"
 import ServiceList from "../elements/service/ServiceList"
 import BlogContent from "../elements/blog/BlogContent"
 import Career from "../elements/career/Career"
+import {
+    Link,
+  } from 'react-router-dom'
 
 const SlideList = [
     {
@@ -22,7 +25,7 @@ const SlideList = [
     }
 ]
 const PortfolioLanding = () => {
-    let title = 'Salut',
+    let title = 'Bonjour',
         description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
     const PostList = BlogContent.slice(0 , 3);
     return (
@@ -82,7 +85,7 @@ const PortfolioLanding = () => {
                                         <div className="row mt--30">
                                             <div className="header-btn">
                                                 <a className="rn-btn">
-                                                    <span>Télécharger mon CV</span>
+                                                    <Link to="/assets/files/cv_thibaut_neu.pdf" target="_blank" download>Télécharger mon CV</Link>
                                                 </a>
                                             </div>
                                         </div>
