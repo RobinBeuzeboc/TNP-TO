@@ -4,10 +4,8 @@ import { FiX , FiMenu} from "react-icons/fi";
 import Scrollspy from 'react-scrollspy'
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/'},
+    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/thibaut-neu-080307b7'},
+
 ]
 class Header extends Component{
     constructor(props) {
@@ -15,11 +13,6 @@ class Header extends Component{
         this.menuTrigger = this.menuTrigger.bind(this);
         this.CLoseMenuTrigger = this.CLoseMenuTrigger.bind(this);
         this.stickyHeader = this.stickyHeader.bind(this);
-
-       //  this.subMetuTrigger = this.subMetuTrigger.bind(this);
-        window.addEventListener('load', function() {
-            console.log('All assets are loaded');
-        })
         
     }
     menuTrigger() {

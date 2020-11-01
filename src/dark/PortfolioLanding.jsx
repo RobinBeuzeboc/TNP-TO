@@ -152,7 +152,7 @@ const PortfolioLanding = () => {
                             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-center">
                                     <h2>Parcours</h2>
-                                    <p>Parce que ma carrière ne s'est pas faite en un jour.</p>
+                                    <p>Du début de mes études supérieures à aujourd'hui.</p>
                                 </div>
                             </div>
                         </div>
@@ -189,7 +189,7 @@ const PortfolioLanding = () => {
             {/* Start COntact Area */}
             <div id="contact" className="fix">
                 <div className="rn-contact-area ptb--120 bg_color--5 mb-dec--30">
-                    <Contact contactImages="/assets/images/about/about-9.jpg" contactTitle="Hire Me." />
+                    <Contact contactImages="/assets/images/about/about-9.jpg" contactTitle="On discute ?" />
                 </div>
             </div>
             {/* End COntact Area */}

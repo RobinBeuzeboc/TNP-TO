@@ -19,9 +19,9 @@ class Contact extends Component{
                             <div className="section-title text-left mb--50">
                                 <h2 className="title">{this.props.contactTitle}</h2>
                                 <p className="description">Pour toute prise de contact, vous pouvez me joindre sur cet email:
-                                    <a href="mailto:admin@example.com"> admin@example.com</a> </p>
+                                    <a href="mailto:admin@example.com"> thibaut.neu@gmail.com</a> </p>
                             </div>
-                            <div className="form-wrapper">
+                            {/* <div className="form-wrapper">
                                 <form>
                                     <label htmlFor="item01">
                                         <input
@@ -67,7 +67,7 @@ class Contact extends Component{
                                     </label>
                                     <button className="rn-button-style--2 btn-solid" type="submit" value="submit" name="submit" id="mc-embedded-subscribe">Envoyer</button>
                                 </form>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="col-lg-6 order-1 order-lg-2">
                             <div className="thumbnail mb_md--30 mb_sm--30">

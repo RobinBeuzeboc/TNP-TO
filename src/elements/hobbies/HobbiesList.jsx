@@ -14,7 +14,7 @@ const HobbiesListContent = [
         image: 'image-5',
         imageDetail: '',
         category: '',
-        title: 'Guitare',
+        title: 'Musique',
 
     },
     {
