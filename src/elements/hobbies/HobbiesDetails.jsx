@@ -50,7 +50,6 @@ const DialogContent = withStyles((theme) => ({
   }))(MuiDialogActions);
 
 export default function HobbiesDetails(props) {
-    const [open, setOpen] = React.useState(false);
     return (
       <div>
         <Dialog onClose={props.handleClose} aria-labelledby="customized-dialog-title" open={true}>

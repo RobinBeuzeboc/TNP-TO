@@ -44,8 +44,6 @@ export default function HobbiesList(props) {
                         <div className="thumbnail-inner">
                             <div className={`thumbnail ${value.image}`}></div>
                             <div className={`bg-blr-image ${value.image}`}></div>
-
-                            {console.log(value.image)}
                         </div>
                         <div className="content">
                             <div className="inner">

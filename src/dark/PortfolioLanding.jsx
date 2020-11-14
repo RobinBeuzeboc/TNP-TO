@@ -27,7 +27,6 @@ const SlideList = [
 const PortfolioLanding = () => {
     let title = 'Bonjour',
         description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
-    const PostList = BlogContent.slice(0 , 3);
     return (
         <div className="active-dark">
             <Helmet pageTitle="Portfolio Landing" />
