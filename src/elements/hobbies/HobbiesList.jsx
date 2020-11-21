@@ -23,6 +23,27 @@ const HobbiesListContent = [
         imageDetail: '',
         category: '',
         title: 'Concerts / Festivals',
+    },
+    {
+        id: 'Voyages',
+        image: 'image-7',
+        imageDetail: '',
+        category: '',
+        title: 'Voyages',
+    },
+    {
+        id: 'Sports',
+        image: 'image-8',
+        imageDetail: '',
+        category: '',
+        title: 'Sports',
+    },    
+    {
+        id: 'Cuisine',
+        image: 'image-9',
+        imageDetail: '',
+        category: '',
+        title: 'Cuisine',
     }
 ]
 
